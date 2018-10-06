@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8" />
+
+<title>ERROR 500</title>
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+<!-- Custom styles for this template -->
+<link href="#" th:href="@{/css/login.css}" rel="stylesheet" />
+<link href="#" th:href="@{/css/style.css}" rel="stylesheet" />
+
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="text-center panel panel-info">
+			<div class="panel-heading">
+				<h1 class="panel-title">ERROR 500</h1>
+			</div>
+			<div class="panel-body">ERROR DEL SERVIDOR</div>
+		</div>
+		<a href="#" th:href="@{/contacts/showcontacts}">
+			<button class="btn btn-lg btn-primary btn-block" type="submit">
+				VOLVER A INICIO</button>
+		</a>
+
+	</div>
+	<!-- /container -->
+
+</body>
+</html>
