@@ -1,4 +1,4 @@
-package com.cjgmj.testSpringSecurity.Repository;
+package com.cjgmj.testSpringSecurity.repository;
 
 import java.io.Serializable;
 

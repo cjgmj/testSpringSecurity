@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.cjgmj.testSpringSecurity.Repository.ContactRepository;
 import com.cjgmj.testSpringSecurity.converter.ContactConverter;
 import com.cjgmj.testSpringSecurity.entity.Contact;
 import com.cjgmj.testSpringSecurity.model.ContactModel;
+import com.cjgmj.testSpringSecurity.repository.ContactRepository;
 import com.cjgmj.testSpringSecurity.service.ContactService;
 
 @Service("contactServiceImpl")
