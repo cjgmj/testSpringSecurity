@@ -19,7 +19,7 @@ public class TaskComponent {
 	@Qualifier("sessionRegistry")
 	private SessionRegistry sessionRegistry;
 	
-	@Scheduled(fixedDelay=1000)
+	@Scheduled(fixedDelay=300000)
 	public void doTask() {
 		LOG.info("Hay " + sessionRegistry.getAllPrincipals().size() + " usuarios conectados en la aplicación.");
 	}
